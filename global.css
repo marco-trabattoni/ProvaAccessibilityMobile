@@ -9,6 +9,7 @@ body {
     font-family: 'Moderat Trial' ;
     z-index: -15;
     overflow: hidden;
+    min-height: -webkit-fill-available;
 }
 #exit {
     width: 100vw;
