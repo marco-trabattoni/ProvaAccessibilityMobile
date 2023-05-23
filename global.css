@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Moderat;
+    src: url(fonts/Moderat-Trial-Regular.otf);
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: Moderat;
+    z-index: -15;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+  }
+  html {
+    height: -webkit-fill-available;
+  }
+
+
+#exit {
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.exittext {
+    color: white;
+    position: absolute;
+    text-align: center;
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 12pt;
+    opacity: 0.25;
+}
+
+#audioplayer {
+    width: 100vw;
+    height: 94vh;
+    position: relative;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+#seekbar::-webkit-progress-bar {
+z-index: -1;
+position: absolute;
+top: 0;
+left: 0;     
+height: 100vw;
+width: 94vh;
+background-color: white;
+transform-origin: top right;
+transform: rotate(-90deg) translateX(0%) translateY(-203%);
+}
+
+#seekbar::-webkit-progress-value {
+background-color: yellow;
+}
+
+
+
+.button {
+height: 90%;
+width: 100%;
+position: fixed;
+top: 10%;
+left: 0;
+overflow-x: hidden;
+z-index: 10;
+opacity: 0;
+}
+
+#screenbutton2 {
+display: none;
+}
+
+#screenbutton3 {
+display: none;
+}
+
+
+
+.container {
+height: 100%;
+width: 100%;
+text-align: center;
+position: relative;
+overflow-x: hidden;
+}
+
+.capitolo {
+    font-size: 600pt;
+    position: absolute;
+    top: 9%;
+    transition: 2s;
+}
+
+.uno {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 100%;
+    transition: 2s;
+}
+.due {
+    left: 100%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+.tre {
+    left: 150%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+.quattro {
+    left: 200%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+.cinque {
+    left: 250%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+
+.menodue {
+    left: 0%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+
+.menotre {
+    left: -50%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
