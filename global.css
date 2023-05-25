@@ -67,22 +67,8 @@ body {
     top: 50%;
     left: 50%;
     background-position: 0% 50%;
-    animation: anima 5s linear infinite;
 }
 
-@keyframes anima {
-	0% {
-		transform: translateX(-50%) translateY(-53%);
-	}
-	33% {
-		transform: translateX(-53%) translateY(-47%);
-	}
-	66% {
-		transform: translateX(-47%) translateY(-53%);}
-
-    100% {
-		transform: translateX(-50%) translateY(-53%);}
-}
 
 
 progress {
