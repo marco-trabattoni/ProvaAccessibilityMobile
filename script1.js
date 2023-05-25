@@ -28,17 +28,17 @@ function structure() {
     var y = document.getElementById("gradient");
     $('#myAudio1').on('timeupdate', function() {
         x.style.width = ((1 + 2 * this.currentTime / this.duration) * 500) + "px";
-        y.style.height = ((1 + 2 * this.currentTime / this.duration) * 450) + "px";
+        y.style.height = ((1 + 2 * this.currentTime / this.duration) * 500) + "px";
     });
 
     $('#myAudio2').on('timeupdate', function() {
         x.style.width = ((1 + 2 * this.currentTime / this.duration) * 500) + "px";
-        y.style.height = ((1 + 2 * this.currentTime / this.duration) * 450) + "px";
+        y.style.height = ((1 + 2 * this.currentTime / this.duration) * 500) + "px";
     });
 
     $('#myAudio3').on('timeupdate', function() {
         x.style.width = ((1 + 2 * this.currentTime / this.duration) * 500) + "px";
-        y.style.height = ((1 + 2 * this.currentTime / this.duration) * 450) + "px";
+        y.style.height = ((1 + 2 * this.currentTime / this.duration) * 500) + "px";
     });
 
 
