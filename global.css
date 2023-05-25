@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Moderat;
+    src: url(fonts/Moderat-Trial-Regular.otf);
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: Moderat;
+    z-index: -15;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+  }
+  html {
+    height: -webkit-fill-available;
+  }
+
+
+#exit {
+    width: 22vw;
+    height: 22vw;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    top: 3vw;
+    left: 3vw;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.exittext {
+    color: white;
+    position: absolute;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 10pt;
+}
+
+#audioplayer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+#gradient{
+    z-index: -1;
+    height: 450px;
+    width: 500px;
+    background: radial-gradient(yellow 40%, white 60%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-position: 0% 50%;
+    animation: anima 5s linear infinite;
+}
+
+@keyframes anima {
+	0% {
+		transform: translateX(-50%) translateY(-53%);
+	}
+	33% {
+		transform: translateX(-53%) translateY(-47%);
+	}
+	66% {
+		transform: translateX(-47%) translateY(-53%);}
+
+    100% {
+		transform: translateX(-50%) translateY(-53%);}
+}
+
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+#seekbar::-webkit-progress-bar {
+z-index: -1;
+background-color: white;
+display: none;
+}
+
+#seekbar::-webkit-progress-value {
+background-image: linear-gradient(to right, yellow , white);
+}
+
+
+
+.button {
+height: 90%;
+width: 100%;
+position: fixed;
+top: 10%;
+left: 0;
+overflow-x: hidden;
+z-index: 10;
+opacity: 0;
+}
+
+#screenbutton2 {
+display: none;
+}
+
+#screenbutton3 {
+display: none;
+}
+
+
+
+#container {
+height: 100%;
+width: 100%;
+text-align: center;
+position: relative;
+overflow-x: hidden;
+}
+
+.capitolo {
+    font-size: 100pt;
+    position: absolute;
+    transition: 2s;
+    line-height: 100vh;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.uno {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 100%;
+    transition: 2s;
+}
+.due {
+    left: 100%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+.tre {
+    left: 150%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+.quattro {
+    left: 200%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+.cinque {
+    left: 250%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+
+.menodue {
+    left: 0%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
+
+.menotre {
+    left: -50%;
+    transform: translateX(-50%);
+    opacity: 10%;
+    transition: 2s;
+}
