@@ -1,0 +1,82 @@
+
+body {
+    overflow: scroll;
+}
+
+.background {
+    width: 92vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    z-index: -15;
+}
+
+.capindicator {
+    font-size: 15pt;
+    letter-spacing: -0.5px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 6vh;
+    text-align: center;
+}
+
+.captitles {
+    font-size: 80pt;
+    letter-spacing: -9px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.timetoread {
+    font-size: 12pt;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    font-family: ModeratItalic;
+    text-align: center;
+}
+
+.captext {
+    font-size: 18pt;
+    letter-spacing: -0.5px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    padding-bottom: 9vh;
+
+}
+
+.nextCap {
+    width: 100vw;
+    background-color: black;
+    height: 27vh;
+    color: white;
+}
+
+.nextarrow {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: 92vw;
+    margin-top: 3vh;
+    max-height: 21vh;
+}
+
+
+.transi {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 15;
+    text-align: center;
+}
+
+.capitolotrans {
+    font-size: 100pt;
+    line-height: 100vh;
+    display: inline-block;
+    vertical-align: middle;
+}
