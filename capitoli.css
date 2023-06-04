@@ -1,0 +1,78 @@
+
+body {
+    overflow: scroll;
+}
+
+.background {
+    width: 92vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    z-index: -15;
+}
+
+.capindicator {
+    font-size: 15pt;
+    letter-spacing: -0.5px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 6vh;
+    text-align: center;
+}
+
+.captitles {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+}
+
+.timetoread {
+    font-size: 12pt;
+    font-family: ModeratItalic;
+    text-align: center;
+}
+
+.captext {
+    font-size: 19pt;
+    letter-spacing: -0.5px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    padding-bottom: 9vh;   
+    line-height: 1.3;
+}
+
+.immagine {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.nextCap {
+    width: 100vw;
+    background-color: black;
+    height: 27vh;
+    color: white;
+}
+
+.nextarrow {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: 92vw;
+    margin-top: 3vh;
+    max-height: 21vh;
+}
+
+
+.transiX {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 15;
+    text-align: center;
+}
